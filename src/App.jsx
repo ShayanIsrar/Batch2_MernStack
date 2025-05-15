@@ -1,5 +1,6 @@
 import React from "react";
-import FetchingData from "./components/FetchingData";
+import TodoList from "./components/TodoList";
+// import FetchingData from "./components/FetchingData";
 // import Form from "./components/Form";
 // import ColorPicker from "./components/ColorPicker";
 // import Counter from "./components/Counter";
@@ -12,7 +13,8 @@ const App = () => {
       {/* <Counter /> */}
       {/* <ColorPicker /> */}
       {/* <Form /> */}
-      <FetchingData />
+      {/* <FetchingData /> */}
+      <TodoList />
     </div>
   );
 };
